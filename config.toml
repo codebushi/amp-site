@@ -5,6 +5,11 @@ theme = "gohugo-amp"
 enableRobotsTXT = false
 publishDir = "amp"
 
+[sitemap]
+    changefreq = "daily"
+    filename = "sitemap.xml"
+    priority = 0.7
+
 [params]
     amp = true
     ampElements = ["amp-analytics"]
