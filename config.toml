@@ -13,7 +13,7 @@ publishDir = "amp"
 [params]
     amp = true
     ampElements = ["amp-analytics"]
-    themeColor = "#ff1d55"
+    themeColor = "#f72060"
     googleAnalytics = "UA-115990515-1"
     ampManifest = "/amp-manifest.json"
     alternatePageName = "Code Bushi"
