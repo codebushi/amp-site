@@ -1,0 +1,22 @@
+baseurl = "https://codebushi.com/"
+languageCode = "en-us"
+title = "Code Bushi"
+theme = "gohugo-amp"
+enableRobotsTXT = false
+publishDir = "amp"
+
+[params]
+    amp = true
+    ampElements = ["amp-analytics"]
+    themeColor = "#ff1d55"
+    googleAnalytics = "UA-115990515-1"
+    ampManifest = "/amp-manifest.json"
+    alternatePageName = "Code Bushi"
+    organizationLogo = "https://codebushi.com/codebushilogo.png"
+    organizationName = "codebushi.com"
+    publisherName = "codebushi.com"
+    publisherLogo = "https://codebushi.com/codebushilogo.png"
+    publisherLogoWidth = 400
+    publisherLogoHeight = 110
+    stylesheetRegular = ["/base-styling.css"] # these styles are used when amp is disabled for a specific page
+    javascriptRegular = ["/script.js"] # these scripts are used when amp is disabled for a specific page
