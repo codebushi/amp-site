@@ -8,7 +8,7 @@
     "hugo:server": "hugo server --buildDrafts --buildFuture",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:prod": "npm run theme:build && hugo && npm run optimize:html",
-    "optimize:html": "./node_modules/.bin/html-minifier --input-dir ./public/ --output-dir ./public/ --file-ext html -c ./.html-minifier-config.json",
+    "optimize:html": "./node_modules/.bin/html-minifier --input-dir ./amp/ --output-dir ./amp/ --file-ext html -c ./.html-minifier-config.json",
     "theme:build": "node ./.bin/styling",
     "theme:watch": "./node_modules/.bin/nodemon -e scss -w ./ -x npm run theme:build"
   },
