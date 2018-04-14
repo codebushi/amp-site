@@ -1,0 +1,8 @@
+{{ partial "seo/structured/website" . }}
+{{ partial "seo/structured/organization" . }}
+{{ partial "seo/structured/breadcrumb" . }}
+
+{{ partial "seo/structured/article" . }}
+
+{{ if eq .Params.structured.type "Course" }}{{ partial "seo/structured/course" . }}{{ end }}
+{{ if eq .Params.structured.type "Recipe" }}{{ partial "seo/structured/recipe" . }}{{ end }}

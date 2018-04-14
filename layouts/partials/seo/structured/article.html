@@ -1,0 +1,32 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "{{ $.Site.Params.author }}"
+  },
+  "headline": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "wordCount": {{ .WordCount }},
+  "datePublished" : "{{ .Date.Format "2006-01-02" }}",
+  "dateModified" : "{{ .Date.Format "2006-01-02"  }}",
+  "image" : {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "url": "https://codebushi.com/amp/{{ $.Params.image }}",
+      "height" : {{ $.Params.imageheight }},
+      "width" : {{ $.Params.imagewidth }}
+    },
+  "mainEntityOfPage" : "{{ .Permalink }}",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "{{ $.Site.Params.publisherName }}",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "{{ $.Site.Params.publisherLogo }}",
+        "height" : {{ $.Site.Params.publisherLogoHeight }},
+        "width" : {{ $.Site.Params.publisherLogoWidth }}
+    }
+  }
+}
+</script>

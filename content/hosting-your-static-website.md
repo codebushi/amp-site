@@ -2,11 +2,13 @@
 title: Hosting Your Static Website For Free
 date: "2018-03-11"
 path: "/hosting-your-static-website/"
-image: "./img/hosting-static-website.jpg"
+image: "img/hosting-static-website.jpg"
 description: "Hosting a static website has become fast, easy, and free. We'll explore options such as GitHub Pages, Surge.sh, and Netlify for deploying your next project."
 featured: true
 tags: ["blog"]
 disclosure: true
+imagewidth: 920
+imageheight: 503
 ---
 
 So you've just put the finishing touches on your [static website](https://codebushi.com/modern-static-website-portfolio/) and it's time to share it with the world. The good news is, there are plenty of great hosting solutions out there to help simplify the process. Deploying a modern static site has become extremely fast, easy, and completely free! Best of all, these solutions all have caching and a content delivery network (CDN) built in for optimal performance.

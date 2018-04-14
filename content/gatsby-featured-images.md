@@ -3,10 +3,12 @@ title: Featured Blog Images In Gatsby.js
 date: "2017-11-24"
 dateModified: "2018-04-08"
 path: "/gatsby-featured-images/"
-image: "./img/gatsby-featured-image.jpg"
+image: "img/gatsby-featured-image.jpg"
 description: "Adding a cover or featured image to Gatsby.js blog posts."
 featured: true
 tags: ["blog"]
+imagewidth: 920
+imageheight: 503
 ---
 
 With [Gatsby.js](https://www.gatsbyjs.org/), it's pretty easy to get a static site up and running with one of their starter templates. The `gatsby-starter-blog` (https://github.com/gatsbyjs/gatsby-starter-blog) demonstrates how a Gatsby static site can function with blog posts written in markdown files. There is a list of blog posts on the homepage, but it would be nice to see a featured image with each post. Let's dive into the `gatsby-starter-blog` and associate a featured or cover image to a markdown post.

@@ -2,10 +2,12 @@
 title: Form Handling with Gatsby.js and Netlify
 date: "2018-03-25"
 path: "/form-handling-gatsby-netlify/"
-image: "./img/gatsby-forms.jpg"
+image: "img/gatsby-forms.jpg"
 description: "Easily handle forms for your Gatsby.js static website with Netlify. Works with most static site generators."
 featured: true
 tags: ["blog"]
+imagewidth: 920
+imageheight: 503
 ---
 
 Having a working contact form is a basic requirement for many websites, but setting one up with a static site can be tricky. If you're hosting your website with [Netlify](https://www.netlify.com/) (which you should be), you can utilize their awesome [form handling feature](https://www.netlify.com/docs/form-handling/) for free. Setting this up is super fast and easy, you'll never want to jump through hoops or embed an ugly form again.

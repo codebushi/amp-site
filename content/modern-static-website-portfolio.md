@@ -2,9 +2,11 @@
 title: Creating a Modern Static Website Portfolio
 date: "2018-02-24"
 path: "/modern-static-website-portfolio/"
-image: "./img/static-website-portfolio.jpg"
+image: "img/static-website-portfolio.jpg"
 description: "A digital portfolio is vital for any web developer. We'll explore some modern static site generators and free hosting solutions to get your personal site up and running."
 tags: ["blog"]
+imagewidth: 920
+imageheight: 503
 ---
 
 If you're a web developer or someone who's looking to get into the field, having a digital portfolio can be extremely valuable. A personal website is a fantastic way to showcase your work and help you get noticed. Fortunately, getting a website up and running is easier and cheaper than ever. With the rise of static site generators and hosting solutions, creating an online portfolio can be relatively easy and completely free! Let's explore some resources and the steps needed to get started.
