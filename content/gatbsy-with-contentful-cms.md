@@ -58,7 +58,7 @@ Here we are activating the Contentful plugin, but we need to create a new accoun
 
 If you are new to Contentful, they have a [beginner's guide](https://www.contentful.com/r/knowledgebase/contentful-101/) to run you through the basics. For me personally, I come from a Wordpress background and Contentful reminded me a lot of [Advanced Custom Fields](https://www.advancedcustomfields.com/). You can create a content model and populate it with whatever fields you like. Once you sign up, there should be a Sample Project created for you to experiment with. Let's add a new content model so we're all on the same page.
 
-![Contentful Blog Model](../img/contentful-blog-model.jpg)
+<amp-img src="../img/contentful-blog-model.jpg" alt="Contentful Blog Model" layout="responsive" width="800" height="378"></amp-img>
 
 For this demo, the "Blog" model I created has 4 fields. Title, slug, featured image, and content. The content field is long text and I used the default markdown appearance. The model name, "Blog", is also important because it will be used later in our GraphQL query.
 
@@ -85,7 +85,7 @@ Let's try and get our new blog post data from GraphiQL. On the left panel enter 
 ```
 In the right panel, you should see the blog posts that you made in Contentful! GraphiQL also has some cool auto complete features, which will show you all the options available for a particular set of data. If you add a new line right above `allContentfulBlog` and hit `control + spacebar`, you should get a dropdown with all the other fields you can query.
 
-![GraphQL Dropdown](../img/graphiql-dropdown.jpg)
+<amp-img src="../img/graphiql-dropdown.jpg" alt="GraphQL Dropdown" layout="responsive" width="800" height="381"></amp-img>
 
 Notice that the `allContentful` fields all have the content model's name after it, such as `allContentfulBrand` or `allContentfulProduct`. This is where the Contentful model name comes into play. Since we want our blog posts, the one we want to use is `allContentfulBlog` to match our "Blog" content model.
 

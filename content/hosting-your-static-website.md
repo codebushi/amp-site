@@ -25,7 +25,7 @@ For example, my GitHub username is ChangoMan, so my new repository would be call
 
 The second option is with a Project Site, and it works in a similar way. You can choose any name you want for your repository, or even use an existing one. Once your static site is committed to the repo, head into the `Settings` tab and scroll down to see the GitHub Pages section.
 
-![GitHub Pages Settings](./img/github-pages-settings-min.png)
+<amp-img src="../img/github-pages-settings-min.png" alt="GitHub Pages Settings" layout="responsive" width="800" height="679"></amp-img>
 
 Select the `master branch` as the source and your site will be live at: **https://_username_.github.io/_repository_**. Alternatively, you can select `master branch /docs folder` and GitHub Pages will ignore everything in your master branch and only deploy the stuff in the `/docs` folder.  Since the static site generator will probably output a folder called `/public`, you'll need to configure it and change the name from `/public` to `/docs` before committing.
 
