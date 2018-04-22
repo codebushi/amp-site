@@ -4,7 +4,6 @@ date: "2017-12-11"
 path: "/react-youtube-background/"
 image: "img/react-youtube.jpg"
 description: "Static website using Gatsby.js and React, using a YouTube video as the background."
-tags: ["blog"]
 imagewidth: 920
 imageheight: 503
 ---

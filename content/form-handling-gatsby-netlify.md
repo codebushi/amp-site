@@ -5,7 +5,6 @@ path: "/form-handling-gatsby-netlify/"
 image: "img/gatsby-forms.jpg"
 description: "Easily handle forms for your Gatsby.js static website with Netlify. Works with most static site generators."
 featured: true
-tags: ["blog"]
 imagewidth: 920
 imageheight: 503
 ---

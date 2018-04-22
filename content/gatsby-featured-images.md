@@ -6,7 +6,6 @@ path: "/gatsby-featured-images/"
 image: "img/gatsby-featured-image.jpg"
 description: "Adding a cover or featured image to Gatsby.js blog posts."
 featured: true
-tags: ["blog"]
 imagewidth: 920
 imageheight: 503
 ---

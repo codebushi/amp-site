@@ -4,7 +4,6 @@ date: "2018-02-24"
 path: "/modern-static-website-portfolio/"
 image: "img/static-website-portfolio.jpg"
 description: "A digital portfolio is vital for any web developer. We'll explore some modern static site generators and free hosting solutions to get your personal site up and running."
-tags: ["blog"]
 imagewidth: 920
 imageheight: 503
 ---

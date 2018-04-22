@@ -4,7 +4,6 @@ date: "2017-11-11"
 path: "/wordpress-to-gatsbyjs/"
 image: "img/wordpress-gatsbyjs.jpg"
 description: "Moving from WordPress to Gatsby.js, a React.js static site generator."
-tags: ["blog"]
 imagewidth: 920
 imageheight: 503
 ---

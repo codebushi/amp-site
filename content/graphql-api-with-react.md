@@ -5,7 +5,6 @@ path: "/graphql-api-with-react/"
 image: "img/graphql-with-react.jpg"
 description: "A tutorial for using modern GraphQL APIs with React.js. We'll use the GraphiQL explorer to construct our query and then use React and axios to make the API request."
 featured: true
-tags: ["blog"]
 imagewidth: 920
 imageheight: 503
 ---

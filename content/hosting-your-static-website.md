@@ -5,7 +5,6 @@ path: "/hosting-your-static-website/"
 image: "img/hosting-static-website.jpg"
 description: "Hosting a static website has become fast, easy, and free. We'll explore options such as GitHub Pages, Surge.sh, and Netlify for deploying your next project."
 featured: true
-tags: ["blog"]
 disclosure: true
 imagewidth: 920
 imageheight: 503

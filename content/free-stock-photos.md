@@ -4,7 +4,6 @@ date: "2018-03-29"
 path: "/free-stock-photos/"
 image: "img/free-stock-photos.jpg"
 description: "A collection of the best resources for free stock photos."
-tags: ["resource"]
 imagewidth: 920
 imageheight: 240
 ---

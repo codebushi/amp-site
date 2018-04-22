@@ -5,7 +5,6 @@ path: "/gatsby-with-contentful-cms/"
 image: "img/gatsby-contentful.jpg"
 description: "Blog site using Gatsby.js as the front-end and Contentful as the content management system. A super fast and modern React website example."
 featured: true
-tags: ["blog"]
 imagewidth: 920
 imageheight: 503
 ---
