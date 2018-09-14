@@ -26,6 +26,7 @@ nbproject/
 /src/client.config.json
 /styleguide/
 /docs/
+package-lock.json
 
 /junit.xml
 partials/structure/stylesheet.html
