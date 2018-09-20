@@ -25,7 +25,7 @@ Adding Gatsby Image to your static website can be a bit tricky, especially since
 
 Here's a demo of the final product:
 
-<h4 class="mt-4 mb-4"><a href="https://gatsby-image-v2.surge.sh/">Gatsby Image Demo</a> <small>( <a href="https://github.com/ChangoMan/gatsby-image-demo">view source</a> )</small></h4>
+<h4 class="mt-4 mb-4"><a href="https://gatsby-image-v2.surge.sh/">Gatsby Image Demo</a> <small>( <a href="https://github.com/codebushi/gatsby-image-v2">view source</a> )</small></h4>
 
 <h3 class="mt-5 mb-3">Installing & Configuring Gatsby Image</h3>
 
@@ -244,4 +244,4 @@ export const pageQuery = graphql`
 
 We'll now have all three images on our homepage! You can play around with the different Gatsby fragments for different loading effects. `...GatsbyImageSharpFluid` will give the "blur up" effect, try `...GatsbyImageSharpFluid_tracedSVG` for a different effect and experiment with fixed images.
 
-<h4 class="mt-4 mb-4"><a href="https://gatsby-image-v2.surge.sh/">Gatsby Image Demo</a> <small>( <a href="https://github.com/ChangoMan/gatsby-image-demo">view source</a> )</small></h4>
+<h4 class="mt-4 mb-4"><a href="https://gatsby-image-v2.surge.sh/">Gatsby Image Demo</a> <small>( <a href="https://github.com/codebushi/gatsby-image-v2">view source</a> )</small></h4>
