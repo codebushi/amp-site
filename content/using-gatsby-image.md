@@ -9,7 +9,7 @@ imagewidth: 920
 imageheight: 503
 ---
 
-*This post has been updated for Gatsby.js V2. If you are on V1, here is an [older article](/using-gatsby-image-version1) for legacy users.*
+*This post has been updated for Gatsby.js V2. If you are on V1, here is an [older article](/using-gatsby-image-version1/) for legacy users.*
 
 <a href="https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/" target="blank">Gatsby.js V2</a> was recently launched and there have been a few small changes to how <a href="https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-image" target="blank">Gatsby Image</a> is implemented. Gatsby Image is a React component that makes it easy to optimize all the images on your website. It will resize images for you, so you don't load huge images on a mobile device, and it will also lazy load your images with a cool "blur-up" effect so that your initial page loads are blazing fast. If you're new to Gatsby, I highly recommend going through their <a href="https://www.gatsbyjs.org/tutorial/" target="blank">official tutorial</a> first and familiarize yourself with how Gatsby works.
 
