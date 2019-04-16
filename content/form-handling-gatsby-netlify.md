@@ -19,7 +19,7 @@ Assuming you have Gatsby.js installed on your machine, let's start off by clonin
 
 ```bash
 # Create a new Gatsby site with the Forty starter
-gatsby new gatsby-forms https://github.com/ChangoMan/gatsby-starter-forty
+gatsby new gatsby-forms https://github.com/codebushi/gatsby-starter-forty
 
 # Go into the new directory
 cd gatsby-forms/
@@ -34,31 +34,41 @@ Here's the initial JSX for the form:
 
 ```jsx
 <form method="post" action="#">
-    <div className="field half first">
-        <label htmlFor="name">Name</label>
-        <input type="text" name="name" id="name" />
-    </div>
-    <div className="field half">
-        <label htmlFor="email">Email</label>
-        <input type="text" name="email" id="email" />
-    </div>
-    <div className="field">
-        <label htmlFor="message">Message</label>
-        <textarea name="message" id="message" rows="6"></textarea>
-    </div>
-    <ul className="actions">
-        <li><input type="submit" value="Send Message" className="special" /></li>
-        <li><input type="reset" value="Clear" /></li>
-    </ul>
+  <div className="field half first">
+    <label htmlFor="name">Name</label>
+    <input type="text" name="name" id="name" />
+  </div>
+  <div className="field half">
+    <label htmlFor="email">Email</label>
+    <input type="text" name="email" id="email" />
+  </div>
+  <div className="field">
+    <label htmlFor="message">Message</label>
+    <textarea name="message" id="message" rows="6" />
+  </div>
+  <ul className="actions">
+    <li>
+      <input type="submit" value="Send Message" className="special" />
+    </li>
+    <li>
+      <input type="reset" value="Clear" />
+    </li>
+  </ul>
 </form>
 ```
 
 All we need to do is add a few new attributes to the `<form>` tag:
 
 ```jsx
-<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-    <input type="hidden" name="bot-field" />
-    ...
+<form
+  name="contact"
+  method="post"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+>
+  <input type="hidden" name="bot-field" />
+  <input type="hidden" name="form-name" value="contact" />
+  ...
 </form>
 ```
 
@@ -77,34 +87,36 @@ It's worth noting that if you're building a normal React app with something like
 Adding your own success page is pretty straightforward, we'll first need to create a new page in our Gatsby site. Make a new file at `src/pages/success.js` with the following:
 
 ```jsx
-import React from 'react'
-import Helmet from 'react-helmet'
+import React from "react";
+import Helmet from "react-helmet";
+import Layout from "../components/layout";
 
-import pic11 from '../assets/images/pic11.jpg'
+import pic11 from "../assets/images/pic11.jpg";
 
-const Success = (props) => (
-    <div>
-        <Helmet>
-            <title>Success Page</title>
-            <meta name="description" content="Success Page" />
-        </Helmet>
+const Success = props => (
+  <Layout>
+    <Helmet>
+      <title>Success Page</title>
+      <meta name="description" content="Success Page" />
+    </Helmet>
 
-        <div id="main" className="alt">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                        <h1>Success/Thank You Page</h1>
-                    </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Thank you for contacting us!</p>
-                </div>
-            </section>
+    <div id="main" className="alt">
+      <section id="one">
+        <div className="inner">
+          <header className="major">
+            <h1>Success/Thank You Page</h1>
+          </header>
+          <span className="image main">
+            <img src={pic11} alt="" />
+          </span>
+          <p>Thank you for contacting us!</p>
         </div>
-
+      </section>
     </div>
-)
+  </Layout>
+);
 
-export default Success
+export default Success;
 ```
 
 Browse over to http://localhost:8000/success and confirm your new page. Next we need to add an `action` to our contact form. Open up `src/components/Contact.js` and replace the `<form>` tag with this:
